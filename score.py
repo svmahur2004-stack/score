@@ -8,7 +8,8 @@ if len(sys.argv) > 1:
     print("Scores:", scores)
     print("Sum:", sum(scores))
     print("Average:", sum(scores) / len(scores))
-    
+    print("Max:", max(scores))
+    print("Min:", min(scores))
 else:
     script_name = sys.argv[0]
     scores = [90, 80, 70, 60, 50]
@@ -17,4 +18,5 @@ else:
     print("Scores:", scores)
     print("Sum:", sum(scores))
     print("Average:", sum(scores) / len(scores))
-   
+    print("Max:", max(scores))
+    print("Min:", min(scores))
